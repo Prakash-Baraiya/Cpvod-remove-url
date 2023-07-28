@@ -3,7 +3,11 @@ import re
 import logging
 from telegram import Update
 from telegram.constants import ParseMode
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
+from telegram.ext import Updater, CommandHandler, MessageHandler, CallbackContext
+from telegram.ext.filters import Filters
+
+# Rest of the code remains the same...
+
 
 # Rest of the code remains the same...
 
